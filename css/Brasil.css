@@ -1,0 +1,408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 26vh auto auto;
+    grid-template-areas:
+        "header"
+        "section"
+        "footer";
+}
+
+figure img {
+    border: 2px solid gray;
+    border-radius: 10px;
+
+}
+
+section p{
+   padding-bottom:0px;
+}
+
+
+section article h1 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.bandeiraBr img{
+    width: 500px;
+    margin-left: 260px;
+    border: 1px solid lightgray;
+}
+
+
+.Sumario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.Sumario li {
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    padding: 5px;
+    width: 246px;
+    height: 50px;
+    margin: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sumario a {
+    color: white;
+    text-decoration: none;
+    padding-top: 9px;
+    list-style: none;
+}
+
+.Sumario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+figcaption{
+    
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+figure img:hover{
+    transform: scale(1.2, 1.2);
+    /*-webkit-animation: scale(1.2, 1.2);*/
+}
+
+.EraVargas p{
+    padding: 10px 60px 0px 75px;
+}
+
+.EraVargas img{
+    width: 200px;
+}
+
+.EraVargas figure{
+    float: right;
+    padding-top: 60px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.Ditador p{
+    padding: 0px 60px 10px 75px;
+}
+
+.Ditador img{
+    width: 550px;
+}
+
+.Ditador{
+    text-align: center;
+}
+
+.MotivosBrasil p{
+    padding: 10px 60px 10px 75px;
+}
+
+.MotivosBrasil img{
+    width: 550px;
+}
+
+.MotivosBrasil{
+    text-align: center;
+}
+
+.Feb p{
+    padding: 10px 60px 10px 75px;
+}
+
+.Feb img{
+    width: 250px;
+}
+
+.Feb figure{
+    float: right;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.SoldadosBr p{
+    padding: 10px 60px 10px 75px;
+}
+
+.SoldadosBr img{
+    width: 600px;
+}
+
+.SoldadosBr{
+    text-align: center;
+}
+
+.FimDaGuerra p{
+    padding: 10px 60px 10px 75px;
+}
+
+.Creditos{
+    margin-top: 60px;
+}
+
+.Creditos ul {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+
+}
+
+.Creditos h1{
+    margin-left: 20px;
+}
+
+.Creditos a{
+    color: yellow;
+    text-decoration: none;
+  
+    
+}
+.Creditos a:hover{
+    text-decoration: underline;
+}
+   
+
+.Topo {
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    bottom: 60px;
+    right: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.Topo:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Layout para celulares*/
+@media only screen and (max-width: 375px) {
+
+    .container {
+            height: auto;
+            width: 100%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 400px auto auto;
+            grid-template-areas:
+                "header"
+                "section"
+                "footer";
+    }
+    
+    main {
+            width: 100%;
+        }
+    
+    header {
+            margin: 0;
+            width: 100%;
+            grid-area: header;
+        }
+    
+    .headerUm img {
+            display: none;
+            width: 100%;
+        }
+    
+    .headerDois img {
+            display: none;
+        }
+    
+    .header-1 img {
+            display: block;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    
+    .header-2 img {
+            display: block;
+            margin-top: 20px;
+            width: 100%;
+        }
+    
+    header h1 {
+            text-align: center;
+            font-size: 20pt;
+        }
+    
+    header h2 {
+            text-align: left;
+            font-size: 20pt;
+        }
+    
+    nav {
+            position: absolute;
+            top: 310px;
+            left: 17px;
+            z-index: 1;
+            width: 19%;
+        }
+    
+    .menu li {
+            position: relative;
+            float: left;
+            z-index: 1;
+            width: 100%;
+            padding: 4px;
+            list-style: none;
+            text-align: center;
+            font-size: 16px;
+        }
+    
+    .menu li a {
+            text-decoration: none;
+            display: block;
+            opacity: 0.9;
+        }
+    
+    
+        /*submenu*/
+    .menu ul {
+            position: absolute;
+            top: 0px;
+            left: 109px;
+            display: none;
+            
+        }
+    
+    .menu li:hover>.sub-menu {
+            display: block;
+        }
+    
+        /* sub-menu do sub-menu*/
+    
+    .sub-menu li ul {
+            position: absolute;
+            top: 0px;
+            left: 88px;
+          
+        }
+    
+    .sub-menu li ul a {
+            display: block;
+          
+        } 
+
+    .bandeiraBr img{
+            width: 98%;
+            margin-left: 0px;
+        }
+
+    section p{
+        padding: 60px 10px 20px 10px;
+
+        }
+
+        
+    .Sumario li{
+            width: 100%;
+            
+        }
+        .EraVargas p{
+            padding: 10px 10px 20px 10px;
+        }
+        
+        .EraVargas img{
+            width: 200px;
+        }
+        
+        .EraVargas figure{
+            float: right;
+            padding-top: 60px;
+            padding-left: 20px;
+            text-align: center;
+        }
+        
+        .Ditador p{
+            padding: 10px 10px 20px 10px;
+        }
+        
+        .Ditador img{
+            width: 95%;
+        }
+        
+        .Ditador{
+            text-align: center;
+        }
+        
+        .MotivosBrasil p{
+            padding: 10px 10px 20px 10px;
+        }
+        
+        .MotivosBrasil img{
+            width: 95%;
+        }
+        
+        .MotivosBrasil{
+            text-align: center;
+        }
+        
+        .Feb p{
+            padding: 10px 10px 20px 10px;
+        }
+        
+        .Feb img{
+            width: 95%;
+        }
+        
+        .Feb figure{
+            float: right;
+            padding-top: 30px;
+            padding-left: 20px;
+            text-align: center;
+        }
+        
+        .SoldadosBr p{
+            padding: 10px 10px 20px 10px;
+        }
+        
+        .SoldadosBr img{
+            width: 95%;
+        }
+        
+        .SoldadosBr{
+            text-align: center;
+        }
+        
+        .FimDaGuerra p{
+             padding: 10px 10px 20px 10px;
+        }
+        .Topo {
+            display: none;
+       }
+
+    }

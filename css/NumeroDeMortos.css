@@ -1,0 +1,501 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 26vh auto auto;
+    grid-template-areas:
+        "header"
+        "section"
+        "footer";
+}
+
+p a{
+    color: yellow;
+    text-decoration: none;
+}
+
+p a:hover{
+    color: lightgray;
+    text-decoration: underline;
+}
+
+section p{
+    padding-bottom: 0px;
+}
+
+.Lista {
+    width: 900px;
+    margin-left: 300px;
+    
+}
+
+table {
+    width: 50%;
+    border-spacing: 0px;
+    border: 1px solid lightgray;
+}
+
+
+th {
+    border: 2px #ddd;
+    padding: 1%;
+    padding: 10px;
+    width: 250px;
+    background-color: #ddd;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
+}
+
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+}
+
+
+.UniaoSovietica img{
+    width: 65px;
+    float: right;
+}
+
+
+.China img{
+ width: 65px;
+ float: right;
+}
+
+
+.Alemanha img{
+    width: 60px;
+    float: right;
+}
+
+.Polonia img{
+    float: right;
+}
+
+.IndiasOrientaisHolada img{
+    width: 60px;
+    float: right;
+}
+
+.Japao img{
+    width: 60px;
+    float: right;
+}
+
+.IndiaBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.IndochinaFrancesa img{
+    width: 60px;
+    float: right;
+}
+
+.Iugoslavia img{
+    width: 60px;
+    float: right;
+}
+
+.Romenia img{
+    width: 60px;
+    float: right;
+}
+
+.Filipinas img{
+    width: 60px;
+    float: right;
+}
+
+.Hungria img{
+    width: 60px;
+    float: right;
+} 
+
+.Franca img{
+    float: right;
+}
+
+.Italia img{
+    width: 60px;
+    float: right;
+}
+
+.Grecia img{
+    float: right;
+}
+
+.ReinoUnido img{
+    float: right;
+}
+
+.Coreia img{
+    width: 60px;
+    float: right;  
+}
+
+.EstadosUnidos img{
+    width: 60px;
+    float: right;  
+}
+
+.Austria img{
+    width: 60px;
+    float: right;  
+}
+
+.Lituania img{
+    width: 60px;
+    float: right;
+}
+
+.Checoslovaquia img{
+    width: 60px;
+    float: right;
+}
+
+.Holanda img{
+    width: 60px;
+    float: right;
+}
+
+.BirmaniaBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.Letonia img{
+    width: 60px;
+    float: right;
+}
+
+.Etiopia img{
+    width: 60px;
+    float: right;
+}
+
+.MalasiaBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.Finlandia img{
+    width: 60px;
+    float: right;
+}
+
+.Belgica img{
+    width: 60px;
+    float: right;
+}
+
+.Estonia img{
+    width: 60px;
+    float: right;
+}
+
+.SingapuraBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.CanadaBritanico img{
+    width: 60px;
+    float: right;
+}
+
+.AustraliaBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.Albania img{
+    width: 60px;
+    float: right;
+}
+
+.Bulgaria img{
+    width: 60px;
+    float: right;
+}
+
+.NovaGuineBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.NovaZelandiaBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.AfricaDoSulBritanica img{
+    width: 60px;
+    float: right;
+}
+
+.Noruega img{
+    width: 60px;
+    float: right;
+}
+
+.Tailandia img{
+    width: 60px;
+    float: right;
+}
+
+.Dinamarca img{
+    width: 60px;
+    float: right;
+}
+
+.Brasil img{
+    width: 60px;
+    float: right; 
+}
+
+.Luxemburgo img{
+    width: 60px;
+    float: right; 
+}
+
+.Iraque img{
+    width: 60px;
+    float: right;  
+}
+
+.Irlanda img{
+    width: 60px;
+    float: right; 
+}
+
+.Ira img{
+    width: 60px;
+    float: right; 
+}
+
+.Turquia img{
+    width: 60px;
+    float: right;
+}
+
+.Islandia img{
+    width: 60px;
+    float: right;
+}
+
+.Mexico img{
+    width: 60px;
+    float: right;
+}
+
+.Total img{
+    width: 60px;
+    float: right;
+}
+
+.Info p{
+    padding: 25px 60px 0px 45px; 
+}
+
+
+.Topo {
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    bottom: 60px;
+    right: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.Topo:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Layout para celulares*/
+@media only screen and (max-width: 375px) {
+
+.container {
+        height: auto;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 55vh auto auto;
+        grid-template-areas:
+            "header"
+            "section"
+            "footer";
+    }
+    
+  
+main {
+        width: 100%;
+    }
+
+header {
+        margin: 0;
+        width: 100%;
+        grid-area: header;
+    }
+
+.headerUm img {
+        display: none;
+        width: 100%;
+    }
+
+.headerDois img {
+        display: none;
+    }
+
+.header-1 img {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+.header-2 img {
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+header h1 {
+        text-align: left;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+header h2 {
+        text-align: left;
+        font-size: 20pt;
+        text-align: center;
+    }
+
+nav {
+        position: absolute;
+        top: 280px;
+        left: 17px;
+        z-index: 1;
+        width: 19%;
+    }
+
+.menu li {
+        position: relative;
+        float: left;
+        z-index: 1;
+        width: 100%;
+        padding: 4px;
+        list-style: none;
+        text-align: center;
+        font-size: 16px;
+    }
+
+  .menu li a {
+        text-decoration: none;
+        display: block;
+        opacity: 0.9;
+    }
+
+
+    /*submenu*/
+.menu ul {
+        position: absolute;
+        top: 0px;
+        left: 109px;
+        display: none;
+        
+    }
+
+.menu li:hover>.sub-menu {
+        display: block;
+    }
+
+    /* sub-menu do sub-menu*/
+
+.sub-menu li ul {
+        position: absolute;
+        top: 0px;
+        left: 88px;
+      
+    }
+
+.sub-menu li ul a {
+        display: block;
+      
+    }
+
+section {
+        width: 100%;
+        margin-top: 100px;
+        padding: 0px;
+        grid-area: section;
+    }
+
+section p{
+        padding: 70px 10px 20px 10px;
+
+        }
+    
+ .Lista {
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    
+table {
+        width: 100%;
+        border-spacing: 0px;
+        border: 1px solid lightgray;
+    }
+
+    
+ th {
+        border: 2px #ddd;
+        background-color: #ddd;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+        padding: 0px;
+
+    }
+    
+    
+td {
+        padding-right: 0px;
+        padding-left: 0px;
+        border-bottom: 1px solid gray;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        background-color: white;
+    }
+
+
+    .Topo {
+        display: none;
+   }
+
+
+}
+
